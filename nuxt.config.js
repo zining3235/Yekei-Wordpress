@@ -2,7 +2,7 @@ export default {
   mode: 'universal',
 
   head: {
-    title: 'Xuanmo Blog | WEB前端笔记',
+    title: 'Yekei Blog | 叶可爱的自留地',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' },
@@ -70,14 +70,14 @@ export default {
   proxy: {
     '/api': {
       // target: 'https://www.xuanmo.xin',
-      target: 'http://localhost:5100',
+      target: 'https://cloud.yekei.com/',
       pathRewrite: {
         '^/api': '/'
       }
     },
     '/wp-content': {
       // target: 'https://www.xuanmo.xin'
-      target: 'http://localhost:5100'
+      target: 'https://cloud.yekei.com/'
     }
   },
 
